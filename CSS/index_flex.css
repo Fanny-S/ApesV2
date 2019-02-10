@@ -1,0 +1,23 @@
+/*General*/
+
+img{
+  width: 100%;
+}
+
+
+/*Screens below 960 width*/
+@media screen and (max-width: 960px) {
+
+  .img_strips>img{
+    max-height: 500px;
+  }
+}
+
+
+/*Screens above 960 width*/
+@media screen and (min-width: 960px) {
+  .img_strips>img{
+    max-height: 500px;
+    object-fit: cover;
+  }
+}
